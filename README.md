@@ -46,28 +46,11 @@ Built with simplicity and clarity in mind, this project is perfect for interview
 
 <ul>
   <li><strong>Language</strong>: Kotlin</li>
-  <li><strong>IDE</strong>: IntelliJ IDEA (or Android Studio)</li>
+  <li><strong>IDE</strong>: IntelliJ IDEA Ultimate</li>
   <li><strong>Architecture</strong>: Simple, modular Kotlin files</li>
 </ul>
 
 <hr/>
-
-<h2>📸 Project Structure</h2>
-
-<div align="center">
-  
-<pre>
-/src
- ├── algorithms
- │    ├── BinarySearch.kt
- │    ├── BubbleSort.kt
- │    ├── SelectionSort.kt
- │    ├── InsertionSort.kt
- │    └── QuickSort.kt
- └── datastructures
-      ├── Stack.kt
-      └── Queue.kt
-</pre>
 
 </div>
 
@@ -77,7 +60,7 @@ Built with simplicity and clarity in mind, this project is perfect for interview
 
 <ol>
   <li><strong>Clone the Repository</strong>:
-    <pre><code>git clone https://github.com/YourGitHubUsername/DSA-Kotlin.git
+    <pre><code>git clone https://github.com/MohammadAliUstad/DSA.git
 cd DSA-Kotlin</code></pre>
   </li>
   <li><strong>Open in IntelliJ IDEA</strong>: Open the project folder and let Gradle sync if needed.</li>
