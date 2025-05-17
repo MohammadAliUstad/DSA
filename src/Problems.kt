@@ -773,5 +773,5 @@ fun primes(n: Int): IntArray {
 }
 
 fun main() {
-
+    palindrome("Jetbrains Intellij")
 }
