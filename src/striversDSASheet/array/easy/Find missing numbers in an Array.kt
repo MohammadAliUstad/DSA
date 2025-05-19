@@ -24,7 +24,6 @@ fun missingNumber2(nums: IntArray): Int {
     for (i in 0 until n) {
         actualSum += nums[i]
     }
-
     return expectedSum - actualSum
 }
 

@@ -48,27 +48,24 @@ fun factorial(n: Int) {
 fun fibonacci(n: Int) {
     var first = 0
     var second = 1
-    var third: Int
-    if (n == 0) {
-        println(0)
+
+    if (n <= 0) {
+        return
     }
+
     if (n == 1) {
-        println(1)
+        println(first)
+        return
     }
-    if (n >= 2) {
-        print("0,")
-        print("1,")
-        for (i in n downTo 2) {
-            third = first + second
-            first = second
-            second = third
-            if (i == 2) {
-                print("$third")
-            } else {
-                print("${third},")
-            }
-        }
+    print("$first, $second")
+
+    for (i in 3..n) {
+        val third = first + second
+        print(", $third")
+        first = second
+        second = third
     }
+    println()
 }
 
 //6

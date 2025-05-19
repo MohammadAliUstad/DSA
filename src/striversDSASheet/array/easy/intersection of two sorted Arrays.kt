@@ -31,14 +31,11 @@ fun findIntersection2(arr1: IntArray, arr2: IntArray): List<Int> {
             j++
         }
     }
-
     return result
 }
 
 fun main() {
     val arr1 = intArrayOf(1, 2, 4, 5, 6)
     val arr2 = intArrayOf(2, 3, 5, 7)
-
-    val intersection = findIntersection2(arr1, arr2)
-    println(intersection)
+    print(findIntersection2(arr1, arr2))
 }
