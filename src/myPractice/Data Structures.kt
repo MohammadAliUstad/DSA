@@ -1,3 +1,5 @@
+package myPractice
+
 class Queue<T> {
     private val items: MutableList<T> = mutableListOf()
 

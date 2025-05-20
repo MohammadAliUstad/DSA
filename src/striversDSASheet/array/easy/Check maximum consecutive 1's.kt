@@ -3,6 +3,7 @@ package striversDSASheet.array.easy
 fun maximum1s(array: IntArray): Int {
     var counter = 0
     var max = 0
+
     for (i in 0 until array.size) {
         if (array[i] == 1) {
             counter++
@@ -13,6 +14,7 @@ fun maximum1s(array: IntArray): Int {
             counter = 0
         }
     }
+
     if (counter > max) {
         return counter
     }

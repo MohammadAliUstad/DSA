@@ -1,5 +1,9 @@
+package myPractice
+
+import kotlin.collections.iterator
 import kotlin.math.sqrt
 import kotlin.random.Random
+import kotlin.text.iterator
 
 //1
 fun fizzBuzz(n: Int) {
@@ -689,7 +693,7 @@ fun getSubsets(set: Set<Int>): List<List<Int>> {
             val newSubset = subset + element
             newSubsets.add(newSubset)
         }
-        subsets.addAll(newSubsets) // Add the newly created subsets to the main list
+        subsets.addAll(newSubsets) // Add the newly created subsets to the myPractice.main list
     }
 
     return subsets

@@ -1,3 +1,5 @@
+package myPractice
+
 //1
 fun binarySearch(sortedArray: IntArray, target: Int): Int {
     // Initializing the left and right pointers for the search range
@@ -111,7 +113,7 @@ fun quickSort(array: IntArray, low: Int, high: Int) {
     if (low < high) {
         val partitionIndex = partition(array, low, high)
 
-        // Recursively sort the elements before and after the partition index
+        // Recursively sort the elements before and after the myPractice.partition index
         quickSort(array, low, partitionIndex - 1)
         quickSort(array, partitionIndex + 1, high)
     }

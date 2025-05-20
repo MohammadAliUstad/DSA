@@ -1,8 +1,12 @@
 package striversDSASheet.array.easy
 
 fun findIndex(arr: IntArray, num: Int): Int {
-    // Your logic will go here
-    return -1 // Default return if number is not found
+    for (i in 0 until arr.size) {
+        if (arr[i] == num) {
+            return i
+        }
+    }
+    return 0
 }
 
 fun main() {

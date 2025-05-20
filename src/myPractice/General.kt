@@ -1,7 +1,9 @@
+package myPractice
+
 class NumberGroup {
     private val numbers: MutableSet<Int> = mutableSetOf() // Using a mutable set to store unique numbers
 
-    // Method to add a number to the group
+    // Method to myPractice.add a number to the group
     fun addNumber(number: Int) {
         if (numbers.add(number)) {
             println("$number added to the group.")
@@ -30,7 +32,7 @@ fun main() {
 
     numberGroup.addNumber(5)
     numberGroup.addNumber(10)
-    numberGroup.addNumber(5) // Attempt to add a duplicate
+    numberGroup.addNumber(5) // Attempt to myPractice.add a duplicate
     numberGroup.displayNumbers()
 
     numberGroup.removeNumber(10)
