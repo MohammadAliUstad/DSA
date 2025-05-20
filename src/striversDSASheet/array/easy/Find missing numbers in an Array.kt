@@ -1,6 +1,6 @@
 package striversDSASheet.array.easy
 
-// Solution: 01: Time Complexity: O(NlogN) & Space complexity: O(1)
+// Solution 01: Time Complexity: O(NlogN) & Space complexity: O(1)
 fun missingNumber1(array: IntArray): Int {
     var sortedArray = array.sortedArray()
     for (i in array.indices) {

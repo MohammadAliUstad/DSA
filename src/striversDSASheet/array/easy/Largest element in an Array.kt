@@ -1,5 +1,6 @@
 package striversDSASheet.array.easy
 
+// Solution 01: Time Complexity: O(N) & Space Complexity: O(1)
 fun findLargestElement(array: IntArray): Int {
     var largest = array[0]
 

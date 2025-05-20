@@ -1,6 +1,6 @@
 package striversDSASheet.array.easy
 
-// BruteForce Approach: Time complexity: O(N^2) & Space Complexity: O(1)
+// Solution 01: Time Complexity: O(N^2) & Space Complexity: O(1)
 fun findIntersection1(arr1: IntArray, arr2: IntArray): List<Int> {
     val result = mutableListOf<Int>()
 
@@ -14,7 +14,7 @@ fun findIntersection1(arr1: IntArray, arr2: IntArray): List<Int> {
     return result
 }
 
-// Optimized Solution: Time complexity: O(N) & Space complexity: O(1)
+// Solution 02: Time Complexity: O(N) & Space Complexity: O(1)
 fun findIntersection2(arr1: IntArray, arr2: IntArray): List<Int> {
     var i = 0
     var j = 0

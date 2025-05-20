@@ -1,5 +1,6 @@
 package striversDSASheet.array.easy
 
+// Time Complexity: O(N) & Space complexity: O(1)
 fun isArraySorted(array: IntArray): Boolean {
     for (i in 0 until array.size - 1) {
         if (array[i] > array[i + 1]) {

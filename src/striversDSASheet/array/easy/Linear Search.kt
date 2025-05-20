@@ -1,5 +1,6 @@
 package striversDSASheet.array.easy
 
+// Solution 01: Time Complexity: O(N) & Space Complexity: O(1)
 fun findIndex(arr: IntArray, num: Int): Int {
     for (i in 0 until arr.size) {
         if (arr[i] == num) {

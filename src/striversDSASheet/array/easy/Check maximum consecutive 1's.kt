@@ -1,5 +1,6 @@
 package striversDSASheet.array.easy
 
+// Solution 01: Time Complexity: O(N) & Space Complexity: O(1)
 fun maximum1s(array: IntArray): Int {
     var counter = 0
     var max = 0
