@@ -1,22 +1,16 @@
 package striversDSASheet.array.easy
 
-// Solution 01: Time Complexity: O(N^2) & Space Complexity: O(N)
+// Solution: Time Complexity: O(N^2) & Space Complexity: O(N)
 fun leftRotateArray(arr: IntArray, k: Int): IntArray {
-    val result = IntArray(arr.size)
-    var tempArr = arr.copyOf()
-    var rotations = 0
-
-    while (rotations < k) {
-        val firstElement = tempArr[0]
-
+    for (j in 0 until k) {
+        var firstElement = arr[0]
         for (i in 0 until arr.size - 1) {
-            result[i] = tempArr[i + 1]
+            arr[i] = arr[i + 1]
         }
-        result[arr.size - 1] = firstElement
-        tempArr = result.copyOf()
-        rotations++
+        arr[arr.size - 1] = firstElement
     }
-    return result
+
+    return arr
 }
 
 fun main() {
