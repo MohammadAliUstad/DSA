@@ -19,7 +19,6 @@ fun union(array1: IntArray, array2: IntArray): IntArray {
         }
     }
 
-    // Add remaining elements
     while (i < array1.size) {
         result.add(array1[i])
         i++
