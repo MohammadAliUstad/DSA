@@ -1,21 +1,6 @@
 package striversDSASheet.array.easy
 
-// Solution 01: Time Complexity: O(N^2) & Space Complexity: O(1)
-fun moveZerosToEnd1(arr: IntArray): IntArray {
-    for (i in 0 until arr.size - 1) {
-        for (i in 0 until arr.size - 1) {
-            var temp: Int
-            if (arr[i] == 0) {
-                temp = arr[i]
-                arr[i] = arr[i + 1]
-                arr[i + 1] = temp
-            }
-        }
-    }
-    return arr
-}
-
-// Solution 02: Time Complexity: O(N) & Space Complexity: O(1)
+// Solution: Time Complexity: O(N) & Space Complexity: O(1)
 fun moveZerosToEnd2(arr: IntArray): IntArray {
     var insertPos = 0
 

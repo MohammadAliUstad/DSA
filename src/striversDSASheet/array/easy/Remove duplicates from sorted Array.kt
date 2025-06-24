@@ -1,8 +1,6 @@
 package striversDSASheet.array.easy
 
 fun removeDuplicates(arr: IntArray): Int {
-    if (arr.isEmpty()) return 0
-
     var uniqueIndex = 0
 
     for (currentIndex in 1 until arr.size) {
