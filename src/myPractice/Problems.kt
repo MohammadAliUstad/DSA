@@ -670,8 +670,8 @@ fun getPermutations3(str: String): List<String> {
 
         for (perm in permutations) {
             for (j in 0..perm.length) {
-                // Insert currentChar at every position in perm
-                val newPermutation = perm.substring(0, j) + currentChar + perm.substring(j)
+                // Insert currentChar at every position in the permutation
+                val newPermutation = perm.take(j) + currentChar + perm.substring(j)
                 newPermutations.add(newPermutation)
             }
         }
