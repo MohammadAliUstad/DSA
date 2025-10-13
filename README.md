@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <h1>📚 DSA in Kotlin - Master Data Structures & Algorithms</h1>
 
 <p>
@@ -89,8 +88,3 @@ Have feedback, ideas, or questions? I’d love to hear from you:<br/>
 <hr/>
 
 <p align="center"><strong>Made with 🚀 passion to strengthen coding skills by Yugen Tech</strong></p>
-
-<hr/>
-=======
-# DSA
->>>>>>> d9518581f5c4143d0e549a4e16b0a79553915d96
