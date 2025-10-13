@@ -30,3 +30,25 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+# ==========================================================
+# Custom rules to only keep problem folders under src/
+# ==========================================================
+
+# Ignore everything
+*
+
+# Keep src directory
+!src/
+
+# Keep the two folders inside src
+!src/myPractice/
+!src/striversDSASheet/
+
+# Keep all files inside these folders
+!src/myPractice/**
+!src/striversDSASheet/**
+
+# Keep this .gitignore and README.md
+!.gitignore
+!README.md
