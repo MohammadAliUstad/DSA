@@ -16,6 +16,6 @@ fun removeDuplicates1(nums: IntArray): IntArray {
 }
 
 fun main() {
-    val array = intArrayOf(0, 0, 1, 1, 1, 2, 2, 3, 3, 4)
+    val array = intArrayOf(1,1,2,2,3,3,4,4,5,5)
     print(removeDuplicates1(array).contentToString())
 }
